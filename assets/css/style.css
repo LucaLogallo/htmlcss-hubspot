@@ -22,6 +22,7 @@
 
 .w-80{
   width: 80%;
+  height: 100%;
   margin: auto;
 }
 
@@ -35,8 +36,16 @@
   padding-right: 1.5%;
 }
 
+.padding_right_2{
+  padding-right: 2%;
+}
+
 .margin_r_1-5{
   margin-right: 1.5%;
+}
+
+.margin_l_1-5{
+  margin-left: 1.5%;
 }
 
 .alignrigh{
@@ -103,3 +112,36 @@
   color: #fe775a;
 }
 
+#navLogo{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  /* background-color: red; */
+}
+/* per prova */
+#nl{
+ /*  background-color: black; */
+}
+
+#due{
+ /*  background-color: chartreuse; */
+  height: 100%;
+}
+/* container logo sotto europa */
+#due>img{
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  max-width: max-content;
+}
+/* container nav software ecc sotto i tasti */
+#tre{
+  height: 100%;
+ /*  background-color: cyan; */
+  line-height: 50px;
+}
+
+#listalogo {
+  height: 100%;
+  line-height:50px ;
+}
