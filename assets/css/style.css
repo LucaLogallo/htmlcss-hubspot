@@ -28,6 +28,10 @@ body{
   float: left;
 }
 
+.float_right{
+  float: right;
+}
+
 .relative {
   position: relative;
 }
@@ -42,8 +46,9 @@ body{
   margin: auto;
 }
 
-.w-30{
-  width: 30%;
+
+.w-70{
+  width: 65%;
 }
 
 .w-65{
@@ -52,6 +57,10 @@ body{
 
 .w-60{
   width: 60%;
+}
+
+.w-30{
+  width: 30%;
 }
 
 /* 50 è la misura in percentuale */
@@ -141,7 +150,7 @@ body{
   text-align: center;
 }
 
-.alignrigh {
+.alignright {
   text-align: right;
 }
 
@@ -192,6 +201,11 @@ body{
 }
 
 /* trasformazione testo */
+
+.fs_13{
+  font-size: 13px;
+}
+
 .upper{
   text-transform: uppercase;
 }
@@ -400,10 +414,16 @@ body{
 
 #loghi_compagnie{
   position: relative;
+  margin: 3% auto;
 }
 
 #loghi_compagnie>p{
   padding-right: 80%;
+  
+}
+
+#loghi_compagnie p>span{
+  font-weight: bold;
 }
 
 #loghi{
@@ -411,6 +431,7 @@ body{
   right: 0;
   top :20%;
 }
+
 
 #loghi ul li{
   width: 25%;
@@ -420,5 +441,16 @@ body{
 #loghi ul li img{
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
+
+/* main last section */
+
+#mainls{
+  margin: auto;
+}
+
+#mainls .box50>img{
+  width: 50%;
+}
+
