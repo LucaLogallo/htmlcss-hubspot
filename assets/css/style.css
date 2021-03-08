@@ -51,12 +51,20 @@ body{
   width: 50%;
 }
 
+.padding_t_1-5{
+  padding-top: 1.5%;
+}
+
 .padding_right_1_5 {
   padding-right: 1.5%;
 }
 
 .padding_right_2 {
   padding-right: 2%;
+}
+
+.padding_1{
+  padding: 1%;
 }
 
 .padding_3{
@@ -336,6 +344,30 @@ body{
   background-color: #899397;
 }
 
-#center{
+#parte_blu{
+  background:linear-gradient(-90deg, #21b6c0, #21c4b1);
+  color: white;
+}
 
+.row{
+  width: 100%;
+  height: 150px;
+}
+
+.row:first-of-type{
+  border-bottom: 1px solid white;
+}
+
+.square{
+  width: 25%;
+  height: 100%;
+}
+
+.square img{
+  width: 50%;
+  height: 30%;
+}
+
+.white_r{
+  border-right: 1px solid white;
 }
