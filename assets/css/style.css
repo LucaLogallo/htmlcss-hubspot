@@ -96,6 +96,10 @@ body{
   padding: 3%;
 }
 
+.margin_r_1{
+  margin-right: 1%;
+}
+
 .margin_r_1-5 {
   margin-right: 1.5%;
 }
@@ -106,6 +110,10 @@ body{
 
 .margin_r_5{
   margin-right: 5%;
+}
+
+.margin_l_1{
+  margin-left: 1%;
 }
 
 .margin_l_1-5 {
@@ -482,5 +490,11 @@ body{
 }
 
 #lingue{
-  margin: auto;
+  margin: 1% auto;
+}
+
+/* linea orizzontale */
+#horizzontal_l{
+  height: 1px;
+  background-color: #dadee0;
 }
