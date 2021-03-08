@@ -50,6 +50,10 @@ body{
   width: 65%;
 }
 
+.w-60{
+  width: 60%;
+}
+
 /* 50 è la misura in percentuale */
 .box50 {
   width: 50%;
@@ -69,6 +73,10 @@ body{
 
 .padding_1{
   padding: 1%;
+}
+
+.padding_2{
+  padding: 2%;
 }
 
 .padding_3{
@@ -95,8 +103,15 @@ body{
   margin-left: 5%;
 }
 
+.margin_t_1{
+  margin-top: 1%;
+}
+
 .margin_t_1-5{
   margin-top: 1.5%;
+}
+.margin_t_2{
+  margin-top: 2%;
 }
 
 .margin_t_3{
@@ -391,18 +406,19 @@ body{
   padding-right: 80%;
 }
 
-.loghi{
+#loghi{
   position: absolute;
   right: 0;
-  top :2%;
+  top :20%;
 }
 
-#loghi> .ul_orizzontale li{
+#loghi ul li{
   width: 25%;
-  height: 30px;
+  height: 50px;
 }
 
-#loghi> .ul_orizzontale li img{
-  width: 100%;
-  /* height: 100%; */
+#loghi ul li img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
